@@ -20,7 +20,7 @@ USING IT                  *my-template-docs-a-neovim-plugin-template-using-it*
 Via `gh`
 
 >
-    $ gh repo create my-plugin -p ellisonleao/nvim-plugin-template
+    $ gh repo create my-plugin -p ellisonleao/nvim-controlflow-queries
 <
 
 Viagithub web page:
@@ -45,23 +45,23 @@ PLUGIN STRUCTURE ~
 >
     .
      lua
-        plugin_name
+        nvim_controlflow_queries
            module.lua
-        plugin_name.lua
+        nvim_controlflow_queries.lua
      Makefile
      plugin
-        plugin_name.lua
+        nvim_controlflow_queries.lua
      README.md
      tests
         minimal_init.lua
-        plugin_name
-            plugin_name_spec.lua
+        nvim_controlflow_queries
+            nvim_controlflow_queries_spec.lua
 <
 
 ==============================================================================
 2. Links                                              *my-template-docs-links*
 
-1. *GitHub Workflow Status*: https://img.shields.io/github/actions/workflow/status/ellisonleao/nvim-plugin-template/lint-test.yml?branch=main&style=for-the-badge
+1. *GitHub Workflow Status*: https://img.shields.io/github/actions/workflow/status/meznaric/nvim-plugin-template/lint-test.yml?branch=main&style=for-the-badge
 2. *Lua*: https://img.shields.io/badge/Made%20with%20Lua-blueviolet.svg?style=for-the-badge&logo=lua
 3. **: https://docs.github.com/assets/cb-36544/images/help/repository/use-this-template-button.png
 
