@@ -35,6 +35,8 @@ local utils = require("nvim_controlflow_queries.utils")
 
 -- ; @keyword.operator (+ 4 other)
 -- "new"
+
+-- Main keyword list of control_flow keywords for typescript
 local control_flow_query = [[
 [
 "if"
