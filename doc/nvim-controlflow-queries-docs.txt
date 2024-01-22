@@ -1,4 +1,4 @@
-*nvim-controlflow-queries-docs.txt*For Neovim >= 0.8.0Last change: 2023 December 31
+*nvim-controlflow-queries-docs.txt*For Neovim >= 0.8.0Last change: 2024 January 22
 
 ==============================================================================
 Table of Contents            *nvim-controlflow-queries-docs-table-of-contents*
