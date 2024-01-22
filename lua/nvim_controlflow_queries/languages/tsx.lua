@@ -59,6 +59,11 @@ local control_flow_query = [[
 "await"
 "new"
 ] @control_flow
+
+; Redefine the @function.call so it has higher priority than @function.builtin
+((call_expression
+  function: (identifier) @function.call)
+)
 ]]
 
 -- Reads a query file, extends it
